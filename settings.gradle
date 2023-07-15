@@ -1,0 +1,6 @@
+rootProject.name = 'Ecommerce_Team3'
+include 'E-Common'
+include 'E-WebParent'
+include 'E-WebParent:E-Admin'
+findProject(':E-WebParent:E-Admin')?.name = 'E-Admin'
+
